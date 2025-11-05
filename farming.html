@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Farming - Hawa Galaan</title>
+    <meta name="description" content="Qonnaa Aanaa Haawwaa Galaan: Buna, Qamadii, Boqqolloo, Loon Aannanii, Horsisa Lukkuu fi kkf.">
+    <link rel="canonical" href="https://example.com/farming.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Farming - Hawa Galaan">
+    <meta property="og:description" content="Damee qonnaa Aanaa Haawwaa Galaan: Buna, Qamadii, Boqqolloo, Beelladoota.">
+    <meta property="og:image" content="https://example.com/image/buna.jpg">
+    <meta property="og:url" content="https://example.com/farming.html">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Farming - Hawa Galaan">
+    <meta name="twitter:description" content="Qonnaa fi oomishaalee Aanaa Haawwaa Galaan.">
+    <meta name="twitter:image" content="https://example.com/image/buna.jpg">
+    
+    <!-- Structured Data: WebPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Farming - Hawa Galaan",
+      "url": "https://example.com/farming.html",
+      "description": "Qonnaa fi oomishaalee Aanaa Haawwaa Galaan."
+    }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js" defer></script>
+    <style>
+        /* Farming page mobile-specific styles */
+        @media (max-width: 768px) {
+            .navbar {
+                height: 70px;
+                padding: 0 15px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 1000;
+            }
+            
+            .nav-container {
+                padding: 0 15px;
+                width: 100%;
+                max-width: 100%;
+            }
+            
+            .nav-logo span {
+                font-size: 1.2rem;
+                letter-spacing: 1px;
+            }
+            
+            .hamburger { 
+                display: flex; 
+                z-index: 1001;
+            }
+            
+            body {
+                padding-top: 70px;
+                overflow-x: hidden;
+            }
+            
+            .farming-welcome {
+                margin-top: 70px !important;
+                padding: 100px 0 60px !important;
+            }
+            
+            .container {
+                padding: 0 15px !important;
+            }
+            
+            .farming-section {
+                padding: 60px 0 !important;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .farming-welcome {
+                padding: 80px 0 60px !important;
+                margin-top: 70px !important;
+            }
+            
+            .navbar {
+                height: 70px;
+            }
+            
+            .nav-logo span {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>HAAWWAA GALAAN</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#attractions" class="nav-link">Leaders</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#charity" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="farming.html" class="nav-link active">Farming</a>
+                </li>
+                <li class="nav-item">
+                    <a href="tourism.html" class="nav-link">Tourism</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Welcome section with background image -->
+    <section class="farming-welcome">
+        <div class="welcome-text">
+            <h1>Hojiiwwan Damee Qonnaa Aanichaa</h1>
+        </div>
+    </section>
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/biqilaa.jpg" alt="Biqilaa (Seventeenth Crop)">
+                <div class="photo-description">
+                    <h2>Biqilaa</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/buna.jpg" alt="Buna (Eighteenth Crop)">
+                <div class="photo-description">
+                    <h2>Buna</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/buna1.jpg" alt="Buna (Nineteenth Crop)">
+                <div class="photo-description">
+                    <h2>Buna</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/muuzii1.jpg" alt="Muuzii (Twentieth Crop)">
+                <div class="photo-description">
+                    <h2>Muuzii</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/muuzii2.jpg" alt="Muuzii (Twenty-First Crop)">
+                <div class="photo-description">
+                    <h2>Muuzii</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/omisha killee.jpg" alt="Omisha Killee (Twenty-Second Crop)">
+                <div class="photo-description">
+                    <h2>Oomisha Killee</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Separate photo box section below -->
+    <section class="farming-photo-section">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/qamadii.jpg" alt="Qamadii (Wheat)">
+                <div class="photo-description">
+                    <h2>Qamadii</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/pappayya.jpg" alt="Pappayya (Papaya)">
+                <div class="photo-description">
+                    <h2>Paappayyaa</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/raafuu.jpg" alt="Raafuu (Collard Greens)">
+                <div class="photo-description">
+                    <h2>Raafuu Maraa</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/qoosta.jpg" alt="Qoosta (Custard Apple)">
+                <div class="photo-description">
+                    <h2>Salaaxa</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/hundee-diimaa.jpg" alt="Hundee Diimaa (Fifth Crop)">
+                <div class="photo-description">
+                    <h2>Hundee Diimaa</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/muuzii.jpg" alt="Muuzii (Sixth Crop)">
+                <div class="photo-description">
+                    <h2>Muuzii</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/qullubbii-diimaa.jpg" alt="Qullubbii Diimaa (Seventh Crop)">
+                <div class="photo-description">
+                    <h2>Qullubbii Diimaa</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/jallisii.jpg" alt="Jallisii (Eighth Crop)">
+                <div class="photo-description">
+                    <h2>Jallisii</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/ruuzii.jpg" alt="Ruuzii (Nineth Crop)">
+                <div class="photo-description">
+                    <h2>Ruuzii</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/nuugii.jpg" alt="Nuugii (Tenth Crop)">
+                <div class="photo-description">
+                    <h2>Nuugii</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/biqilaa-bunaa.jpg" alt="Biqilaa Bunaa (Eleventh Crop)">
+                <div class="photo-description">
+                    <h2>Biqilaa Bunaa</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/misooma-bunaa.jpg" alt="Misooma Bunaa (Twelfth Crop)">
+                <div class="photo-description">
+                    <h2>Misooma Bunaa</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/horsiisa-lukkuu.jpg" alt="Horsiisa Lukkuu (Thirteenth Crop)">
+                <div class="photo-description">
+                    <h2>Horsiisa Lukkuu</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/killee.jpg" alt="Killee (Fourteenth Crop)">
+                <div class="photo-description">
+                    <h2>Oomisha Killee</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/furdisa-loonii.jpg" alt="Furdisa Loonii (Fifteenth Crop)">
+                <div class="photo-description">
+                    <h2>Furdisa Loonii</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/hoolaa.jpg" alt="Hoolaa (Sixteenth Crop)">
+                <div class="photo-description">
+                    <h2>Furdisa Hoolaa</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- New Crops Section -->
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/loon_aannanii.jpg" alt="Loon Aannanii (Dairy Cow)">
+                <div class="photo-description">
+                    <h2>Loon Aannanii</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/aannan.jpg" alt="Aannan (Milk)">
+                <div class="photo-description">
+                    <h2>Aannan</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/boqqolloo.jpg" alt="Boqqolloo (Corn)">
+                <div class="photo-description">
+                    <h2>Boqqolloo</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/ashaaraa1.jpg" alt="Ashaaraa 1 (First Type)">
+                <div class="photo-description">
+                    <h2>Ashaaraa Magariisa</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="farming-photo-section no-top-gap">
+        <div class="photo-boxes">
+            <div class="photo-box">
+                <img src="image/ashaaraa2.jpg" alt="Ashaaraa 2 (Second Type)">
+                <div class="photo-description">
+                    <h2>Ashaaraa Magariisa</h2>
+                </div>
+            </div>
+            <div class="photo-box">
+                <img src="image/ashaaraa3.jpg" alt="Ashaaraa 3 (Third Type)">
+                <div class="photo-description">
+                    <h2>Ashaaraa Magariisa</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Back to Home Button -->
+    <a href="index.html" class="back-to-home" title="Back to Home">
+        <i class="fas fa-home"></i>
+    </a>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>@hawwaa_galaan</h3>
+                    <p>Biyya Aannanii fi Bunaa waa maraan badhaate! <br> kottaa waliin hojjennee, waliin guddanna!</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2017 Hawa_Galan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html> 
